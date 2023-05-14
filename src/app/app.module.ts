@@ -18,6 +18,7 @@ import {MatSelectModule} from '@angular/material/select';
 
 import { EmpAddEditComponent } from './emp-add-edit/emp-add-edit.component';
 import { MatNativeDateModule } from '@angular/material/core';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -41,7 +42,8 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatNativeDateModule,
     MatRadioModule,
     MatSelectModule,
-    
+    ReactiveFormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
